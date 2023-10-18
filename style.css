@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    background-image: linear-gradient(rgb(192, 125, 125), rgb(67, 109, 137),  rgb(40, 83, 40));
+    width: 16vw;
+    font-family: 'League Spartan', sans-serif;
+    height: 100vh;
+    
+}
+.navbar nav{
+    padding: 43px;
+    height: 100vh;
+}
+.navbar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.main{
+    background-image: linear-gradient(rgb(192, 125, 125), rgb(67, 109, 137),  rgb(40, 83, 40));
+    width: 100%;
+}
+.container{
+    display: flex;
+
+}
+    
+.infocontainer{
+    /*background-color: blue;*/
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.devpic{
+    width: 380px;
+}
+.devpic img{
+    height: 58vh;
+}
+.devinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hello{
+    font-size: 65px;
+}
+.name{
+    font-size: 50px;
+    font: bold;
+    font-family: 'Fira Sans', sans-serif;
+}
+.about{font-size: 40px
+}
+.moreabout{
+    font-size: 22px;
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 23px;
+}
+.buttons {
+    margin-top: 34px;
+}
+.buttons button{
+    border-radius: 22px;
+    padding: 9px 14px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin:  0 3px;
+
+}
+.buttons button:hover{
+    background-color: white;
+    color: dodgerblue;
+    transition-duration: 1s;
+    
+}
